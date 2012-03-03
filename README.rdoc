@@ -10,7 +10,7 @@ issueを新規作成するときに、youRoomの任意のroomへ投稿できるp
 Redmineをインストールしたディレクトリで下記コマンドを実行
 
   $ cd vendor/plugins
-  $ git clone https://github.com/asktkhr/collaborate_you_room.git
+  $ git clone https://github.com/asktkhr/redmine_collaborate_you_room.git
   $ cd ../..
   $ rake db:migrate:plugins
 
