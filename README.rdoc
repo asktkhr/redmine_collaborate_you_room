@@ -15,4 +15,5 @@ Redmineをインストールしたディレクトリで下記コマンドを実�
   $ rake db:migrate:plugins
 
 == プラグイン設定
-  {Rails.root}/vendor/plugins/collaborate_you_room/lib/oauth_consumer.rbをエディタで開き、youRoomのconsumer_key,consumer_secretを設定
+
+{Rails.root}/vendor/plugins/collaborate_you_room/lib/oauth_consumer.rbをエディタで開き、youRoomのconsumer_key,consumer_secretを設定
