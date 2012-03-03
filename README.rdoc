@@ -1,0 +1,15 @@
+= collaborate_you_room
+
+issueを新規作成するときに、youRoomの任意のroomへ投稿できるpluginです。
+
+
+= インストール
+
+== プラグインのインストール
+
+Redmineをインストールしたディレクトリにいき下記コマンドを実行
+
+  $ cd vendor/plugins
+  $ git clone https://github.com/asktkhr/collaborate_you_room.git
+  $ cd ../..
+  $ rake db:migrate:plugins
