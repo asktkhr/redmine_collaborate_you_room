@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=640" />
+
+    <link rel="stylesheet" href="stylesheets/core.css" media="screen"/>
+    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)"/>
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css"/>
+
+    <script type="text/javascript" src="javascripts/modernizr.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#main_content').headsmart()
+      })
+    </script>
+    <title>Redmine collaborate you room by asktkhr</title>
+  </head>
+
+  <body>
+    <a id="forkme_banner" href="https://github.com/asktkhr/redmine_collaborate_you_room">Fork Me on GitHub</a>
+    <div class="shell">
+
+      <header>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <h1>Redmine collaborate you room</h1>
+            <h2></h2>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+      </header>
+
+      <section id="downloads">
+        <span class="inner">
+          <a href="https://github.com/asktkhr/redmine_collaborate_you_room/zipball/master" class="zip"><em>download</em> .ZIP</a><a href="https://github.com/asktkhr/redmine_collaborate_you_room/tarball/master" class="tgz"><em>download</em> .TGZ</a>
+        </span>
+      </section>
+
+      <span class="banner-fix"></span>
+
+      <section id="main_content">
+        <p>collaborate_you_room</p>
+
+<p>issueを新規作成するときに、youRoomの任意のroomへ投稿できるpluginです。
+インストール
+プラグインのインストール</p>
+
+<p>Redmineをインストールしたディレクトリで下記コマンドを実行</p>
+
+<p>$ cd vendor/plugins
+$ git clone <a href="https://github.com/asktkhr/redmine_collaborate_you_room.git">https://github.com/asktkhr/redmine_collaborate_you_room.git</a>
+$ cd ../..
+$ rake db:migrate:plugins</p>
+
+<p>プラグイン設定</p>
+
+<p>{Rails.root}/vendor/plugins/collaborate_you_room/lib/oauth_consumer.rbをエディタで開き、youRoomのconsumer_key,consumer_secretを設定</p>
+      </section>
+
+      <footer>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <p>this project by <a href="https://github.com/asktkhr">asktkhr</a> can be found on <a href="https://github.com/asktkhr/redmine_collaborate_you_room">GitHub</a></p>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+        <p>Generated with <a href="http://pages.github.com">GitHub Pages</a> using Merlot</p>
+        <span class="octocat"></span>
+      </footer>
+
+    </div>
+
+    
+  </body>
+</html>
